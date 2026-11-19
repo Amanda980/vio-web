@@ -58,11 +58,16 @@ function App() {
   }
 
   return (
-    <div className="pagina">
-      <header className="cabecalho">
-        <h1>VIO WEB</h1>
-        <p>Venda de Ingressos Online</p>
-      </header>
+   <div className="pagina">
+  <header className="cabecalho">
+    <h1>VIO WEB</h1>
+    <p>Venda de Ingressos Online</p>
+
+    <div className="identificacao-aluno">
+      <p>Desenvolvido por: Amanda Cristina Olegário</p>
+      <p>Turma: 4º DSM</p>
+    </div>
+  </header>
 
       <main className="conteudo">
 
